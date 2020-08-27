@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShakeImageView">
+        <attr name="openShake" format="boolean" />
+        <attr name="imageCorner" format="dimension" />
+        <attr name="offset" format="float" />
+        <attr name="animDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRectCoverView">
+        <attr name="roundCorner" format="dimension" />
+        <attr name="roundPadding" format="dimension" />
+        <attr name="roundCoverColor" format="color" />
+    </declare-styleable>
+
+</resources>
