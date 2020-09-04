@@ -47,8 +47,8 @@ class RoundRectCoverView(context: Context, attrs: AttributeSet) : View(context, 
     }
 
     override fun onDraw(canvas: Canvas) {
-//        fun1(canvas)
-        fun2(canvas)
+        fun1(canvas)
+//        fun2(canvas)
 
     }
 

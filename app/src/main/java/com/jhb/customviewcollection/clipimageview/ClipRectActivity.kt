@@ -1,6 +1,5 @@
 package com.jhb.customviewcollection.clipimageview
 
-import android.annotation.SuppressLint
 import android.graphics.*
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +8,7 @@ import com.bumptech.glide.request.target.ImageViewTarget
 import com.bumptech.glide.request.target.SizeReadyCallback
 import com.jhb.R
 import com.jhb.customviewcollection.util.dp
-import com.jhb.customviewcollection.util.logE
+import com.jhb.customviewcollection.util.log
 import kotlinx.android.synthetic.main.activity_clip_rect.*
 
 
@@ -38,7 +37,7 @@ class ClipRectActivity : AppCompatActivity() {
                         val bitmapWidth = width
                         val bitmapHeight = height
 
-                        "bitmapWidth  = $bitmapWidth  bitmapHeight = $bitmapHeight".logE()
+                        "bitmapWidth  = $bitmapWidth  bitmapHeight = $bitmapHeight".log()
                         // l: 0, t: 71, r: 1715, b: 1080
                         //假设服务端提供的坐标是 0, 71, 1715, 1080
                         val createBitmap = Bitmap.createBitmap(this, 0, 71, 1715, 1080 - 71)
